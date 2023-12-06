@@ -21,11 +21,11 @@ int main() {
     int i;
     for (i = 0; i < size; i++) {
         printf("Sach %d:\n", i + 1);
-        printf("  - Ten sach: ");
+        printf("Ten sach: ");
         scanf("%s", bookList[i].title);
-        printf("  - Tac gia: ");
+        printf("Tac gia: ");
         scanf("%s", bookList[i].author);
-        printf("  - Gia: ");
+        printf("Gia: ");
         scanf("%d", &bookList[i].price);
     }
 
